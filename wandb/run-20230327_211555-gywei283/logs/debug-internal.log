@@ -1,0 +1,202 @@
+2023-03-27 21:15:55,942 INFO    StreamThr :4099934 [internal.py:wandb_internal():87] W&B internal server running at pid: 4099934, started at: 2023-03-27 21:15:55.941138
+2023-03-27 21:15:55,943 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status
+2023-03-27 21:15:55,946 INFO    WriterThread:4099934 [datastore.py:open_for_write():85] open: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/run-gywei283.wandb
+2023-03-27 21:15:55,947 DEBUG   SenderThread:4099934 [sender.py:send():336] send: header
+2023-03-27 21:15:55,956 DEBUG   SenderThread:4099934 [sender.py:send():336] send: run
+2023-03-27 21:15:56,448 INFO    SenderThread:4099934 [dir_watcher.py:__init__():219] watching files in: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files
+2023-03-27 21:15:56,448 INFO    SenderThread:4099934 [sender.py:_start_run_threads():1078] run started: gywei283 with start time 1679922955.94085
+2023-03-27 21:15:56,448 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 21:15:56,450 INFO    SenderThread:4099934 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 21:15:56,518 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: check_version
+2023-03-27 21:15:56,518 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: check_version
+2023-03-27 21:15:56,554 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: run_start
+2023-03-27 21:15:56,565 DEBUG   HandlerThread:4099934 [system_info.py:__init__():31] System info init
+2023-03-27 21:15:56,565 DEBUG   HandlerThread:4099934 [system_info.py:__init__():46] System info init done
+2023-03-27 21:15:56,565 INFO    HandlerThread:4099934 [system_monitor.py:start():183] Starting system monitor
+2023-03-27 21:15:56,565 INFO    SystemMonitor:4099934 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-27 21:15:56,565 INFO    HandlerThread:4099934 [system_monitor.py:probe():204] Collecting system info
+2023-03-27 21:15:56,566 INFO    SystemMonitor:4099934 [interfaces.py:start():187] Started cpu monitoring
+2023-03-27 21:15:56,566 INFO    SystemMonitor:4099934 [interfaces.py:start():187] Started disk monitoring
+2023-03-27 21:15:56,567 INFO    SystemMonitor:4099934 [interfaces.py:start():187] Started gpu monitoring
+2023-03-27 21:15:56,568 INFO    SystemMonitor:4099934 [interfaces.py:start():187] Started memory monitoring
+2023-03-27 21:15:56,568 INFO    SystemMonitor:4099934 [interfaces.py:start():187] Started network monitoring
+2023-03-27 21:15:56,630 DEBUG   HandlerThread:4099934 [system_info.py:probe():195] Probing system
+2023-03-27 21:15:56,632 DEBUG   HandlerThread:4099934 [system_info.py:_probe_git():180] Probing git
+2023-03-27 21:15:56,645 DEBUG   HandlerThread:4099934 [system_info.py:_probe_git():188] Probing git done
+2023-03-27 21:15:56,645 DEBUG   HandlerThread:4099934 [system_info.py:probe():240] Probing system done
+2023-03-27 21:15:56,645 DEBUG   HandlerThread:4099934 [system_monitor.py:probe():213] {'os': 'Linux-5.4.0-52-generic-x86_64-with-glibc2.31', 'python': '3.11.0', 'heartbeatAt': '2023-03-27T13:15:56.630718', 'startedAt': '2023-03-27T13:15:55.928089', 'docker': None, 'cuda': None, 'args': ('config/train_gpt2.py',), 'state': 'running', 'program': '/home/linzihao/PreTrain/PreTrain/train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ZihaoLin0123/PreTrain.git', 'commit': 'a82b33b525ca9855d705656387698e13eb8e8d4b'}, 'email': None, 'root': '/home/linzihao/PreTrain/PreTrain', 'host': 'dgx056.scc.idea', 'username': 'linzihao', 'executable': '/home/linzihao/anaconda3/envs/transformer/bin/python', 'cpu_count': 128, 'cpu_count_logical': 256, 'cpu_freq': {'current': 3374.9936132812495, 'min': 1500.0, 'max': 2250.0}, 'cpu_freq_per_core': [{'current': 3386.012, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.441, 'min': 1500.0, 'max': 2250.0}, {'current': 3383.887, 'min': 1500.0, 'max': 2250.0}, {'current': 3383.406, 'min': 1500.0, 'max': 2250.0}, {'current': 3382.383, 'min': 1500.0, 'max': 2250.0}, {'current': 3404.907, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.668, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.641, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.793, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.466, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.504, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.224, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.309, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.566, 'min': 1500.0, 'max': 2250.0}, {'current': 3379.595, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.974, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.481, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.612, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.554, 'min': 1500.0, 'max': 2250.0}, {'current': 3384.639, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.168, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.207, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.213, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.249, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.855, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.262, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.331, 'min': 1500.0, 'max': 2250.0}, {'current': 3397.789, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.583, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.663, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.401, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.67, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.174, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.482, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.753, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.888, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.903, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.097, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.926, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.91, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.417, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.274, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.206, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.204, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.272, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.569, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.78, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.561, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.317, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.123, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.938, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.111, 'min': 1500.0, 'max': 2250.0}, {'current': 2491.972, 'min': 1500.0, 'max': 2250.0}, {'current': 3381.878, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.197, 'min': 1500.0, 'max': 2250.0}, {'current': 2500.743, 'min': 1500.0, 'max': 2250.0}, {'current': 3380.746, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.806, 'min': 1500.0, 'max': 2250.0}, {'current': 2516.716, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.348, 'min': 1500.0, 'max': 2250.0}, {'current': 2459.167, 'min': 1500.0, 'max': 2250.0}, {'current': 2415.639, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.98, 'min': 1500.0, 'max': 2250.0}, {'current': 2414.107, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.782, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.987, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.121, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.261, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.681, 'min': 1500.0, 'max': 2250.0}, {'current': 3382.253, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.796, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.023, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.603, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.357, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.445, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.417, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.84, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.665, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.243, 'min': 1500.0, 'max': 2250.0}, {'current': 3381.728, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.501, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.379, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.97, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.739, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.145, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.16, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.273, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.9, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.721, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.862, 'min': 1500.0, 'max': 2250.0}, {'current': 3395.639, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.396, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.892, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.948, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.123, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.594, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.379, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.3, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.796, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.865, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.97, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.938, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.061, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.404, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.172, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.509, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.779, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.163, 'min': 1500.0, 'max': 2250.0}, {'current': 3395.473, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.09, 'min': 1500.0, 'max': 2250.0}, {'current': 3394.85, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.063, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.549, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.411, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.197, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.892, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.89, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.565, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.808, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.703, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.246, 'min': 1500.0, 'max': 2250.0}, {'current': 3383.978, 'min': 1500.0, 'max': 2250.0}, {'current': 3384.13, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.609, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.017, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.19, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.057, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.293, 'min': 1500.0, 'max': 2250.0}, {'current': 3395.625, 'min': 1500.0, 'max': 2250.0}, {'current': 3383.528, 'min': 1500.0, 'max': 2250.0}, {'current': 3394.142, 'min': 1500.0, 'max': 2250.0}, {'current': 3405.323, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.231, 'min': 1500.0, 'max': 2250.0}, {'current': 3402.788, 'min': 1500.0, 'max': 2250.0}, {'current': 3402.448, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.491, 'min': 1500.0, 'max': 2250.0}, {'current': 3381.174, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.666, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.765, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.242, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.516, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.377, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.345, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.786, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.862, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.145, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.737, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.912, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.734, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.169, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.203, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.261, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.254, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.269, 'min': 1500.0, 'max': 2250.0}, {'current': 3397.071, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.379, 'min': 1500.0, 'max': 2250.0}, {'current': 3382.544, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.331, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.833, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.484, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.384, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.86, 'min': 1500.0, 'max': 2250.0}, {'current': 3403.901, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.086, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.882, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.259, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.9, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.716, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.64, 'min': 1500.0, 'max': 2250.0}, {'current': 3384.839, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.173, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.675, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.522, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.25, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.845, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.615, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.358, 'min': 1500.0, 'max': 2250.0}, {'current': 3384.649, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.039, 'min': 1500.0, 'max': 2250.0}, {'current': 3369.571, 'min': 1500.0, 'max': 2250.0}, {'current': 2445.622, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.002, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.584, 'min': 1500.0, 'max': 2250.0}, {'current': 2424.299, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.201, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.513, 'min': 1500.0, 'max': 2250.0}, {'current': 3367.693, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.955, 'min': 1500.0, 'max': 2250.0}, {'current': 2447.049, 'min': 1500.0, 'max': 2250.0}, {'current': 2453.162, 'min': 1500.0, 'max': 2250.0}, {'current': 3371.467, 'min': 1500.0, 'max': 2250.0}, {'current': 2423.771, 'min': 1500.0, 'max': 2250.0}, {'current': 3382.451, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.09, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.135, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.322, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.79, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.813, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.428, 'min': 1500.0, 'max': 2250.0}, {'current': 3381.928, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.681, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.884, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.551, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.099, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.619, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.936, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.819, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.05, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.728, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.372, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.851, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.756, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.089, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.987, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.273, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.248, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.984, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.898, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.445, 'min': 1500.0, 'max': 2250.0}, {'current': 3387.246, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.844, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.849, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.176, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.682, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.014, 'min': 1500.0, 'max': 2250.0}, {'current': 3385.643, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.499, 'min': 1500.0, 'max': 2250.0}, {'current': 3386.362, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.968, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.265, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.268, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.276, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.133, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.951, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.508, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.534, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.567, 'min': 1500.0, 'max': 2250.0}, {'current': 3379.036, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.634, 'min': 1500.0, 'max': 2250.0}, {'current': 3388.888, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.539, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.543, 'min': 1500.0, 'max': 2250.0}, {'current': 3391.231, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.978, 'min': 1500.0, 'max': 2250.0}, {'current': 3389.795, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.773, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.012, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.945, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.361, 'min': 1500.0, 'max': 2250.0}, {'current': 3381.735, 'min': 1500.0, 'max': 2250.0}, {'current': 3390.87, 'min': 1500.0, 'max': 2250.0}, {'current': 3392.288, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.183, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.237, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.128, 'min': 1500.0, 'max': 2250.0}, {'current': 3393.198, 'min': 1500.0, 'max': 2250.0}], 'disk': {'total': 1757.8287315368652, 'used': 16.23526382446289}, 'gpu': 'A100-SXM4-40GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}, {'name': 'A100-SXM4-40GB', 'memory_total': 42506321920}], 'memory': {'total': 2015.6994094848633}}
+2023-03-27 21:15:56,645 INFO    HandlerThread:4099934 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-27 21:15:56,645 INFO    HandlerThread:4099934 [system_monitor.py:probe():217] Publishing system info
+2023-03-27 21:15:56,645 DEBUG   HandlerThread:4099934 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-27 21:15:56,647 DEBUG   HandlerThread:4099934 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-27 21:15:56,647 DEBUG   HandlerThread:4099934 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-27 21:15:57,450 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_created():278] file/dir created: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/requirements.txt
+2023-03-27 21:15:57,450 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_created():278] file/dir created: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/conda-environment.yaml
+2023-03-27 21:15:57,450 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_created():278] file/dir created: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json
+2023-03-27 21:15:59,905 DEBUG   HandlerThread:4099934 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-27 21:15:59,908 INFO    HandlerThread:4099934 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-27 21:15:59,911 DEBUG   SenderThread:4099934 [sender.py:send():336] send: files
+2023-03-27 21:15:59,912 INFO    SenderThread:4099934 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-27 21:15:59,917 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 21:15:59,917 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 21:16:00,146 DEBUG   SenderThread:4099934 [sender.py:send():336] send: telemetry
+2023-03-27 21:16:00,453 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/conda-environment.yaml
+2023-03-27 21:16:00,453 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_created():278] file/dir created: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-metadata.json
+2023-03-27 21:16:01,147 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:01,810 INFO    wandb-upload_0:4099934 [upload_job.py:push():138] Uploaded file /tmp/tmp21l72kdowandb/w8jrlibl-wandb-metadata.json
+2023-03-27 21:16:06,147 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:11,148 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:15,000 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 21:16:15,001 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 21:16:18,152 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:23,152 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:28,157 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:28,474 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/config.yaml
+2023-03-27 21:16:30,023 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 21:16:30,024 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 21:16:34,245 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:39,246 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:44,248 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:45,043 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 21:16:45,044 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 21:16:45,491 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-27 21:16:45,493 DEBUG   SenderThread:4099934 [sender.py:send():336] send: history
+2023-03-27 21:16:45,493 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 21:16:45,495 INFO    SenderThread:4099934 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 21:16:46,488 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json
+2023-03-27 21:16:46,488 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_created():278] file/dir created: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log
+2023-03-27 21:16:47,648 DEBUG   SenderThread:4099934 [sender.py:send():336] send: exit
+2023-03-27 21:16:47,648 INFO    SenderThread:4099934 [sender.py:send_exit():559] handling exit code: 1
+2023-03-27 21:16:47,648 INFO    SenderThread:4099934 [sender.py:send_exit():561] handling runtime: 51
+2023-03-27 21:16:47,650 INFO    SenderThread:4099934 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 21:16:47,650 INFO    SenderThread:4099934 [sender.py:send_exit():567] send defer
+2023-03-27 21:16:47,650 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:47,650 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-27 21:16:47,650 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:47,650 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-27 21:16:47,650 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 1
+2023-03-27 21:16:47,650 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:47,650 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-27 21:16:47,651 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:47,651 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-27 21:16:47,651 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 2
+2023-03-27 21:16:47,651 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:47,651 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-27 21:16:47,651 INFO    HandlerThread:4099934 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-27 21:16:47,652 DEBUG   SystemMonitor:4099934 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-27 21:16:47,652 INFO    HandlerThread:4099934 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-27 21:16:47,652 INFO    HandlerThread:4099934 [interfaces.py:finish():199] Joined disk monitor
+2023-03-27 21:16:47,652 DEBUG   SystemMonitor:4099934 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-27 21:16:47,653 DEBUG   SystemMonitor:4099934 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-27 21:16:48,490 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log
+2023-03-27 21:16:48,490 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json
+2023-03-27 21:16:50,492 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log
+2023-03-27 21:16:52,680 INFO    HandlerThread:4099934 [interfaces.py:finish():199] Joined gpu monitor
+2023-03-27 21:16:52,681 INFO    HandlerThread:4099934 [interfaces.py:finish():199] Joined memory monitor
+2023-03-27 21:16:52,681 INFO    HandlerThread:4099934 [interfaces.py:finish():199] Joined network monitor
+2023-03-27 21:16:52,681 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 21:16:52,682 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:52,682 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,682 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-27 21:16:52,682 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 3
+2023-03-27 21:16:52,683 DEBUG   SenderThread:4099934 [sender.py:send():336] send: stats
+2023-03-27 21:16:52,683 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:52,684 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 21:16:52,686 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-27 21:16:52,686 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,686 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-27 21:16:52,686 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 4
+2023-03-27 21:16:52,687 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:52,687 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-27 21:16:52,687 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,687 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-27 21:16:52,687 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 5
+2023-03-27 21:16:52,687 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:52,687 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-27 21:16:52,688 DEBUG   SenderThread:4099934 [sender.py:send():336] send: summary
+2023-03-27 21:16:52,689 INFO    SenderThread:4099934 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 21:16:52,689 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,689 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-27 21:16:52,689 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 6
+2023-03-27 21:16:52,689 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:52,689 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-27 21:16:52,689 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,690 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-27 21:16:52,690 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 7
+2023-03-27 21:16:52,690 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 21:16:52,690 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:52,690 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-27 21:16:52,690 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:52,690 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-27 21:16:53,496 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json
+2023-03-27 21:16:53,652 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 21:16:53,652 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 8
+2023-03-27 21:16:53,653 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:53,653 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-27 21:16:53,653 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:53,653 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-27 21:16:53,661 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 9
+2023-03-27 21:16:53,662 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:53,662 DEBUG   SenderThread:4099934 [sender.py:send():336] send: artifact
+2023-03-27 21:16:53,662 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-27 21:16:54,496 INFO    Thread-13 :4099934 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log
+2023-03-27 21:16:54,859 INFO    SenderThread:4099934 [sender.py:send_artifact():1428] sent artifact job-https___github.com_ZihaoLin0123_PreTrain.git_train.py - {'id': 'QXJ0aWZhY3Q6NDA3NzIyMDk1', 'digest': '809ded455354ea1399e7c70b38e881b9', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_ZihaoLin0123_PreTrain.git_train.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_ZihaoLin0123_PreTrain.git_train.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU5MDAyNDE4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDA3NzIyMDk1', 'versionIndex': 0}}, 'version': 'v0'}
+2023-03-27 21:16:54,859 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:54,859 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-27 21:16:54,859 INFO    SenderThread:4099934 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-27 21:16:55,498 INFO    SenderThread:4099934 [dir_watcher.py:finish():395] scan: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files
+2023-03-27 21:16:55,498 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json wandb-summary.json
+2023-03-27 21:16:55,498 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log output.log
+2023-03-27 21:16:55,499 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/config.yaml config.yaml
+2023-03-27 21:16:55,502 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/conda-environment.yaml conda-environment.yaml
+2023-03-27 21:16:55,504 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-metadata.json wandb-metadata.json
+2023-03-27 21:16:55,505 INFO    SenderThread:4099934 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/requirements.txt requirements.txt
+2023-03-27 21:16:55,507 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 10
+2023-03-27 21:16:55,507 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:55,507 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-27 21:16:55,509 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:55,510 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-27 21:16:55,510 INFO    SenderThread:4099934 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 21:16:56,132 INFO    wandb-upload_1:4099934 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/output.log
+2023-03-27 21:16:56,132 INFO    wandb-upload_0:4099934 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/wandb-summary.json
+2023-03-27 21:16:56,135 INFO    wandb-upload_4:4099934 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/requirements.txt
+2023-03-27 21:16:56,168 INFO    wandb-upload_3:4099934 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/conda-environment.yaml
+2023-03-27 21:16:56,174 INFO    wandb-upload_2:4099934 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/files/config.yaml
+2023-03-27 21:16:56,374 INFO    Thread-12 (_thread_body):4099934 [sender.py:transition_state():587] send defer: 11
+2023-03-27 21:16:56,375 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:56,375 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-27 21:16:56,375 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:56,375 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-27 21:16:56,375 INFO    SenderThread:4099934 [file_pusher.py:join():169] waiting for file pusher
+2023-03-27 21:16:56,375 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 12
+2023-03-27 21:16:56,375 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:56,375 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-27 21:16:56,376 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:56,376 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-27 21:16:56,598 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 13
+2023-03-27 21:16:56,599 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:56,599 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-27 21:16:56,599 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:56,599 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-27 21:16:56,599 INFO    SenderThread:4099934 [sender.py:transition_state():587] send defer: 14
+2023-03-27 21:16:56,599 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 21:16:56,600 DEBUG   SenderThread:4099934 [sender.py:send():336] send: final
+2023-03-27 21:16:56,600 INFO    HandlerThread:4099934 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-27 21:16:56,600 DEBUG   SenderThread:4099934 [sender.py:send():336] send: footer
+2023-03-27 21:16:56,600 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: defer
+2023-03-27 21:16:56,600 INFO    SenderThread:4099934 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-27 21:16:56,600 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 21:16:56,601 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 21:16:56,601 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: server_info
+2023-03-27 21:16:56,601 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-27 21:16:56,601 DEBUG   SenderThread:4099934 [sender.py:send_request():363] send_request: server_info
+2023-03-27 21:16:56,603 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-27 21:16:56,821 INFO    MainThread:4099934 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-27 21:16:56,821 INFO    MainThread:4099934 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-27 21:16:56,821 INFO    MainThread:4099934 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-27 21:16:56,822 DEBUG   HandlerThread:4099934 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-27 21:16:56,822 INFO    HandlerThread:4099934 [handler.py:finish():842] shutting down handler
+2023-03-27 21:16:57,601 INFO    WriterThread:4099934 [datastore.py:close():298] close: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211555-gywei283/run-gywei283.wandb
+2023-03-27 21:16:57,821 INFO    SenderThread:4099934 [sender.py:finish():1504] shutting down sender
+2023-03-27 21:16:57,821 INFO    SenderThread:4099934 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 21:16:57,821 INFO    SenderThread:4099934 [file_pusher.py:join():169] waiting for file pusher

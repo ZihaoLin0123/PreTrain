@@ -1,0 +1,21 @@
+step 0: train loss 10.9886, val loss 10.9898
+iter 0: loss 10.9932, time 24689.52ms, mfu -100.00%
+iter 10: loss 10.3931, time 775.16ms, mfu 21.71%
+iter 20: loss 9.7772, time 776.07ms, mfu 21.71%
+iter 30: loss 9.5051, time 774.73ms, mfu 21.71%
+iter 40: loss 9.2092, time 776.44ms, mfu 21.71%
+iter 50: loss 8.9870, time 775.37ms, mfu 21.71%
+iter 60: loss 8.8507, time 775.18ms, mfu 21.71%
+iter 70: loss 8.5594, time 776.49ms, mfu 21.71%
+iter 80: loss 8.4283, time 774.98ms, mfu 21.71%
+iter 90: loss 8.2031, time 775.06ms, mfu 21.71%
+iter 100: loss 8.0554, time 775.08ms, mfu 21.71%
+iter 110: loss 8.0444, time 775.09ms, mfu 21.71%
+Traceback (most recent call last):
+  File "/home/linzihao/PreTrain/PreTrain/train.py", line 298, in <module>
+    scaler.scale(loss).backward()
+  File "/home/linzihao/anaconda3/envs/transformer/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/linzihao/anaconda3/envs/transformer/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,19 @@
+2023-03-27 21:15:29,495 INFO    StreamThr :4096076 [internal.py:wandb_internal():87] W&B internal server running at pid: 4096076, started at: 2023-03-27 21:15:29.494008
+2023-03-27 21:15:29,496 DEBUG   HandlerThread:4096076 [handler.py:handle_request():144] handle_request: status
+2023-03-27 21:15:29,499 INFO    WriterThread:4096076 [datastore.py:open_for_write():85] open: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/run-va8yza3q.wandb
+2023-03-27 21:15:29,500 DEBUG   SenderThread:4096076 [sender.py:send():336] send: header
+2023-03-27 21:15:29,511 DEBUG   SenderThread:4096076 [sender.py:send():336] send: run
+2023-03-27 21:15:30,496 WARNING StreamThr :4096076 [internal.py:is_dead():415] Internal process exiting, parent pid 4094668 disappeared
+2023-03-27 21:15:30,497 ERROR   StreamThr :4096076 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-27 21:15:30,511 INFO    HandlerThread:4096076 [handler.py:finish():842] shutting down handler
+2023-03-27 21:15:30,511 INFO    WriterThread:4096076 [datastore.py:close():298] close: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/run-va8yza3q.wandb
+2023-03-27 21:15:31,268 INFO    SenderThread:4096076 [dir_watcher.py:__init__():219] watching files in: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/files
+2023-03-27 21:15:31,268 INFO    SenderThread:4096076 [sender.py:_start_run_threads():1078] run started: va8yza3q with start time 1679922929.493646
+2023-03-27 21:15:31,268 INFO    SenderThread:4096076 [sender.py:finish():1504] shutting down sender
+2023-03-27 21:15:31,268 INFO    SenderThread:4096076 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-27 21:15:32,269 INFO    SenderThread:4096076 [dir_watcher.py:finish():395] scan: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/files
+2023-03-27 21:15:32,269 INFO    SenderThread:4096076 [dir_watcher.py:finish():409] scan save: /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/files/config.yaml config.yaml
+2023-03-27 21:15:32,270 INFO    SenderThread:4096076 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 21:15:32,270 INFO    SenderThread:4096076 [file_pusher.py:join():169] waiting for file pusher
+2023-03-27 21:15:34,074 INFO    wandb-upload_0:4096076 [upload_job.py:push():138] Uploaded file /home/linzihao/PreTrain/PreTrain/wandb/run-20230327_211529-va8yza3q/files/config.yaml
+2023-03-27 21:15:34,075 INFO    MainThread:4096076 [internal.py:handle_exit():77] Internal process exited
