@@ -1,0 +1,116 @@
+step 0: train loss 10.9891, val loss 10.9905
+iter 0: loss 10.9876, time 48850.96ms, mfu -100.00%
+iter 10: loss 10.3790, time 940.34ms, mfu 17.90%
+iter 20: loss 9.8212, time 943.28ms, mfu 17.89%
+iter 30: loss 9.5814, time 955.62ms, mfu 17.87%
+iter 40: loss 9.2459, time 948.14ms, mfu 17.86%
+iter 50: loss 9.0311, time 881.84ms, mfu 17.98%
+iter 60: loss 8.8484, time 956.07ms, mfu 17.94%
+iter 70: loss 8.7413, time 867.90ms, mfu 18.09%
+iter 80: loss 8.4182, time 936.64ms, mfu 18.08%
+iter 90: loss 8.1892, time 944.88ms, mfu 18.05%
+iter 100: loss 8.0804, time 923.87ms, mfu 18.07%
+iter 110: loss 7.7960, time 926.49ms, mfu 18.08%
+iter 120: loss 7.4951, time 909.51ms, mfu 18.12%
+iter 130: loss 7.4104, time 928.04ms, mfu 18.12%
+iter 140: loss 7.1786, time 931.17ms, mfu 18.12%
+iter 150: loss 6.9796, time 960.76ms, mfu 18.06%
+iter 160: loss 6.9042, time 965.82ms, mfu 17.99%
+iter 170: loss 6.8509, time 879.82ms, mfu 18.11%
+iter 180: loss 6.6700, time 931.39ms, mfu 18.10%
+iter 190: loss 6.7067, time 887.65ms, mfu 18.19%
+iter 200: loss 6.4378, time 921.79ms, mfu 18.20%
+iter 210: loss 6.6713, time 946.26ms, mfu 18.16%
+iter 220: loss 6.5775, time 931.76ms, mfu 18.15%
+iter 230: loss 6.4674, time 956.23ms, mfu 18.09%
+iter 240: loss 6.3855, time 895.40ms, mfu 18.16%
+iter 250: loss 6.3631, time 938.21ms, mfu 18.14%
+iter 260: loss 6.2337, time 938.15ms, mfu 18.12%
+iter 270: loss 6.3502, time 936.55ms, mfu 18.11%
+iter 280: loss 6.2467, time 871.06ms, mfu 18.23%
+iter 290: loss 6.1845, time 956.02ms, mfu 18.17%
+iter 300: loss 6.2161, time 934.27ms, mfu 18.15%
+iter 310: loss 6.1855, time 936.04ms, mfu 18.13%
+iter 320: loss 6.2938, time 901.00ms, mfu 18.19%
+iter 330: loss 6.1599, time 868.58ms, mfu 18.31%
+iter 340: loss 6.0999, time 939.88ms, mfu 18.27%
+iter 350: loss 5.7963, time 912.68ms, mfu 18.29%
+iter 360: loss 6.0355, time 932.80ms, mfu 18.26%
+iter 370: loss 6.1389, time 887.40ms, mfu 18.33%
+iter 380: loss 5.8790, time 959.52ms, mfu 18.25%
+iter 390: loss 5.9893, time 938.42ms, mfu 18.22%
+iter 400: loss 6.0043, time 943.63ms, mfu 18.18%
+iter 410: loss 5.7878, time 924.12ms, mfu 18.19%
+iter 420: loss 5.9261, time 927.90ms, mfu 18.18%
+iter 430: loss 5.7341, time 905.39ms, mfu 18.22%
+iter 440: loss 5.8323, time 895.77ms, mfu 18.28%
+iter 450: loss 5.7446, time 936.00ms, mfu 18.25%
+iter 460: loss 5.6971, time 956.34ms, mfu 18.19%
+iter 470: loss 5.7217, time 907.52ms, mfu 18.22%
+iter 480: loss 5.4341, time 924.33ms, mfu 18.22%
+iter 490: loss 5.5564, time 936.52ms, mfu 18.20%
+iter 500: loss 5.5413, time 984.03ms, mfu 18.09%
+iter 510: loss 5.6442, time 921.78ms, mfu 18.10%
+iter 520: loss 5.5662, time 923.09ms, mfu 18.12%
+iter 530: loss 5.5918, time 888.03ms, mfu 18.20%
+iter 540: loss 5.4014, time 931.58ms, mfu 18.19%
+iter 550: loss 5.3976, time 883.56ms, mfu 18.27%
+iter 560: loss 5.3537, time 923.98ms, mfu 18.27%
+iter 570: loss 5.6438, time 927.41ms, mfu 18.26%
+iter 580: loss 5.5341, time 923.48ms, mfu 18.25%
+iter 590: loss 5.3709, time 911.83ms, mfu 18.27%
+iter 600: loss 5.1954, time 919.88ms, mfu 18.28%
+iter 610: loss 5.3783, time 915.92ms, mfu 18.29%
+iter 620: loss 5.3415, time 887.83ms, mfu 18.35%
+iter 630: loss 5.4094, time 904.55ms, mfu 18.38%
+iter 640: loss 5.3470, time 835.43ms, mfu 18.56%
+iter 650: loss 5.2382, time 903.43ms, mfu 18.56%
+iter 660: loss 5.2382, time 847.76ms, mfu 18.69%
+iter 670: loss 5.2850, time 899.13ms, mfu 18.70%
+iter 680: loss 5.1723, time 907.56ms, mfu 18.68%
+iter 690: loss 5.1202, time 912.30ms, mfu 18.66%
+iter 700: loss 5.0435, time 951.80ms, mfu 18.56%
+iter 710: loss 5.1665, time 948.08ms, mfu 18.48%
+iter 720: loss 5.0782, time 960.88ms, mfu 18.38%
+iter 730: loss 5.1410, time 927.68ms, mfu 18.36%
+iter 740: loss 4.9331, time 867.33ms, mfu 18.46%
+iter 750: loss 5.0050, time 968.44ms, mfu 18.36%
+iter 760: loss 5.1206, time 898.29ms, mfu 18.39%
+iter 770: loss 5.0623, time 931.93ms, mfu 18.36%
+iter 780: loss 5.0249, time 949.03ms, mfu 18.30%
+iter 790: loss 4.9964, time 886.93ms, mfu 18.37%
+iter 800: loss 4.9419, time 925.64ms, mfu 18.35%
+iter 810: loss 4.8521, time 898.35ms, mfu 18.39%
+iter 820: loss 4.8845, time 900.63ms, mfu 18.42%
+iter 830: loss 5.0719, time 933.19ms, mfu 18.38%
+iter 840: loss 4.8344, time 911.56ms, mfu 18.39%
+iter 850: loss 4.8955, time 896.02ms, mfu 18.43%
+iter 860: loss 4.8099, time 941.58ms, mfu 18.37%
+iter 870: loss 4.7199, time 915.35ms, mfu 18.37%
+iter 880: loss 4.7469, time 965.61ms, mfu 18.28%
+iter 890: loss 4.7827, time 911.14ms, mfu 18.30%
+iter 900: loss 4.7785, time 929.40ms, mfu 18.28%
+iter 910: loss 4.6685, time 911.94ms, mfu 18.30%
+iter 920: loss 4.7368, time 972.56ms, mfu 18.20%
+iter 930: loss 4.5837, time 891.99ms, mfu 18.27%
+iter 940: loss 4.5203, time 923.68ms, mfu 18.26%
+iter 950: loss 4.5533, time 956.68ms, mfu 18.20%
+iter 960: loss 4.6805, time 915.93ms, mfu 18.21%
+iter 970: loss 4.4617, time 931.66ms, mfu 18.20%
+iter 980: loss 4.5873, time 907.59ms, mfu 18.23%
+iter 990: loss 4.5684, time 955.40ms, mfu 18.17%
+step 1000: train loss 4.5072, val loss 4.5138
+saving checkpoint to /cto_studio/datastory/common/GPT2
+Traceback (most recent call last):
+  File "/home/pengyue/PreTrain/train.py", line 281, in <module>
+    torch.save(checkpoint, os.path.join(out_dir, 'ckpt.pt'))
+  File "/home/pengyue/anaconda3/envs/transformer/lib/python3.11/site-packages/torch/serialization.py", line 440, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pengyue/anaconda3/envs/transformer/lib/python3.11/site-packages/torch/serialization.py", line 315, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pengyue/anaconda3/envs/transformer/lib/python3.11/site-packages/torch/serialization.py", line 288, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(str(name)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: File /cto_studio/datastory/common/GPT2/ckpt.pt cannot be opened.

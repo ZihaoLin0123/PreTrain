@@ -1,0 +1,297 @@
+master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Overriding config with config/train_gpt2.py:
+# config for training GPT-2 (124M) down to very nice loss of ~2.85 on 1 node of 8X A100 40GB
+# launch as the following (e.g. in a screen session) and wait ~5 days:
+# $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
+
+wandb_log = True
+wandb_project = 'owt'
+wandb_run_name='gpt2-124M'
+
+# these make the total batch size be ~0.5M
+# 12 batch size * 1024 block size * 5 gradaccum * 8 GPUs = 491,520
+batch_size =20
+block_size = 1024
+gradient_accumulation_steps = 3
+
+# this makes total number of tokens be 300B
+max_iters = 600000
+lr_decay_iters = 600000
+
+# eval stuff
+eval_interval = 1000
+eval_iters = 200
+log_interval = 10
+
+# weight decay
+weight_decay = 1e-1
+
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+number of parameters: 123.59M
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+using fused AdamW: True
+wandb: Currently logged in as: zihaolin. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/pengyue/.netrc
+wandb: Tracking run with wandb version 0.14.0
+wandb: Run data is saved locally in /home/pengyue/PreTrain/wandb/run-20230329_150158-1heg1ats
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gpt2-124M
+wandb: ⭐️ View project at https://wandb.ai/zihaolin/owt
+wandb: 🚀 View run at https://wandb.ai/zihaolin/owt/runs/1heg1ats
+step 0: train loss 10.9891, val loss 10.9905
+iter 0: loss 10.9876, time 87080.67ms, mfu -100.00%
+iter 10: loss 10.3790, time 1241.25ms, mfu 13.56%
+iter 20: loss 9.8212, time 1204.61ms, mfu 13.60%
+iter 30: loss 9.5814, time 1179.71ms, mfu 13.67%
+iter 40: loss 9.2459, time 1172.02ms, mfu 13.74%
+iter 50: loss 9.0311, time 1128.26ms, mfu 13.86%
+iter 60: loss 8.8484, time 1248.87ms, mfu 13.82%
+iter 70: loss 8.7413, time 1193.90ms, mfu 13.85%
+iter 80: loss 8.4182, time 1189.85ms, mfu 13.88%
+iter 90: loss 8.1892, time 1117.29ms, mfu 14.00%
+iter 100: loss 8.0804, time 1086.92ms, mfu 14.14%
+iter 110: loss 7.7960, time 1128.11ms, mfu 14.22%
+iter 120: loss 7.4951, time 1204.08ms, mfu 14.20%
+iter 130: loss 7.4104, time 1155.55ms, mfu 14.23%
+iter 140: loss 7.1786, time 1187.22ms, mfu 14.23%
+iter 150: loss 6.9796, time 1091.89ms, mfu 14.35%
+iter 160: loss 6.9042, time 1132.22ms, mfu 14.40%
+iter 170: loss 6.8509, time 1139.03ms, mfu 14.44%
+iter 180: loss 6.6700, time 1115.17ms, mfu 14.50%
+iter 190: loss 6.7067, time 1183.40ms, mfu 14.48%
+iter 200: loss 6.4378, time 1143.92ms, mfu 14.50%
+iter 210: loss 6.6713, time 1246.06ms, mfu 14.40%
+iter 220: loss 6.5775, time 1104.03ms, mfu 14.48%
+iter 230: loss 6.4674, time 1058.56ms, mfu 14.63%
+iter 240: loss 6.3855, time 1095.85ms, mfu 14.70%
+iter 250: loss 6.3631, time 1211.84ms, mfu 14.62%
+iter 260: loss 6.2337, time 1193.33ms, mfu 14.57%
+iter 270: loss 6.3502, time 1187.14ms, mfu 14.53%
+iter 280: loss 6.2467, time 1141.87ms, mfu 14.55%
+iter 290: loss 6.1845, time 1109.07ms, mfu 14.61%
+iter 300: loss 6.2161, time 1118.83ms, mfu 14.66%
+iter 310: loss 6.1855, time 1229.55ms, mfu 14.56%
+iter 320: loss 6.2938, time 1212.34ms, mfu 14.49%
+iter 330: loss 6.1599, time 1119.77ms, mfu 14.55%
+iter 340: loss 6.0999, time 1159.48ms, mfu 14.54%

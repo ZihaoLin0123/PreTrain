@@ -17,10 +17,12 @@ $ torchrun --nproc_per_node=8 --nnodes=2 --node_rank=1 --master_addr=123.456.123
 """
 
 import os
+import json
 import time
 import math
 import pickle
 from contextlib import nullcontext
+from datetime import datetime
 
 import numpy as np
 import torch
@@ -32,7 +34,9 @@ from model import GPTConfig, GPT
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
 # I/O
-out_dir = "/cto_studio/datastory/common/GPT2"
+timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+out_dir = f"/comp_robot/pengyue/GPT2/{timestamp}"
+
 eval_interval = 2000
 log_interval = 1
 eval_iters = 200
@@ -94,8 +98,13 @@ else:
     seed_offset = 0
     gradient_accumulation_steps *= 8 # simulate 8 gpus
 
-if master_process:
-    os.makedirs(out_dir, exist_ok=True)
+if not os.path.exists(out_dir) and master_process:
+    os.makedirs(out_dir)
+
+    with open(os.path.join(out_dir, 'config.json'), 'w') as f:
+        json.dump(config, f)
+
+
 torch.manual_seed(1337 + seed_offset)
 torch.backends.cuda.matmul.allow_tf32 = True # allow tf32 on matmul
 torch.backends.cudnn.allow_tf32 = True # allow tf32 on cudnn
@@ -233,6 +242,7 @@ def get_lr(it):
 # logging
 if wandb_log and master_process:
     import wandb
+    wandb.login(key="8fb20be1dc6beb7c6cded234022fe4f400b33518")
     wandb.init(project=wandb_project, name=wandb_run_name, config=config)
 
 # training loop
